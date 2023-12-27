@@ -6,13 +6,18 @@ jobs:
     steps:
       - name: Print greeting
         run: echo "Hello world"
-      - name: Print greeting
+      - name: Print parallèle
         run: | 
           echo "Parallèle 1" 
           echo "Parallèle 2"
           echo "Parallèle 3"
           echo "Parallèle 4"
           echo "Parallèle 5"
+          echo "Parallèle 6"
+          echo "Parallèle 7"
+          echo "Parallèle 8"
+          echo "Parallèle 9"
+          echo "Parallèle 10"
       - name: print goodbye
         run: echo "bye bye!"
         
