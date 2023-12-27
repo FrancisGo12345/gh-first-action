@@ -7,10 +7,11 @@ jobs:
       - name: Print greeting
         run: echo "Hello world"
       - name: Print greeting
-        run: echo "Parallèle 1" |
-          echo "Parallèle 2" |
-          echo "Parallèle 3" |
-          echo "Parallèle 4" |
+        run: | 
+          echo "Parallèle 1" 
+          echo "Parallèle 2"
+          echo "Parallèle 3"
+          echo "Parallèle 4"
           echo "Parallèle 5"
       - name: print goodbye
         run: echo "bye bye!"
